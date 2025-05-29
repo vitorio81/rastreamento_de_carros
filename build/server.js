@@ -4,11 +4,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const netWork_1 = require("./utils/netWork");
+const network_1 = require("./utils/network");
 const Launcher_1 = require("./controller/Launcher");
 const app = (0, express_1.default)();
 const PORT = process.env.PORT || 3000;
-const HOST = (0, netWork_1.getLocalIp)();
+const HOST = (0, network_1.getLocalIp)();
 app.listen(PORT, () => {
     console.log(`Server is running on address ${HOST} end port ${PORT}`);
 });
