@@ -43,4 +43,6 @@ exports.config = {
     hostAuth: process.env.HOST_AUTH,
     hostStatus: process.env.HOST_STATUS,
     logLevel: process.env.LOG_LEVEL || "info",
+    ixcIp: process.env.IXC_IP,
+    ixcPort: process.env.IXC_PORT
 };

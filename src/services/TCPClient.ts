@@ -2,10 +2,9 @@
 import net from "net";
 import logger from "../utils/logger";
 import { TK103Packet } from "../model/TK103Packet";
+import { config } from "../config/env";
 
 export class TK103SenderService {
-  private static readonly IXC_IP = "131.72.68.163";
-  private static readonly IXC_PORT = 10000;
 
   public static send(packet: TK103Packet): void {
     const client = new net.Socket();
@@ -13,8 +12,14 @@ export class TK103SenderService {
     logger.info(
       `Enviando pacote TK103 para ${packet.imei}: ${packet.raw.trim()}`
     );
-
-    client.connect(this.IXC_PORT, this.IXC_IP, () => {
+    const port = Number(config.ixcPort);
+    if (isNaN(port)) {
+      throw new Error("Porta IXC não definida ou inválida.");
+    }
+    if (!config.ixcIp) {
+      throw new Error("IP do IXC não definido.");
+    }
+    client.connect(port, config.ixcIp, () => {
       client.write(packet.raw);
     });
 

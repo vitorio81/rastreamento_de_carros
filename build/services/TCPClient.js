@@ -6,11 +6,19 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.TK103SenderService = void 0;
 const net_1 = __importDefault(require("net"));
 const logger_1 = __importDefault(require("../utils/logger"));
+const env_1 = require("../config/env");
 class TK103SenderService {
     static send(packet) {
         const client = new net_1.default.Socket();
         logger_1.default.info(`Enviando pacote TK103 para ${packet.imei}: ${packet.raw.trim()}`);
-        client.connect(this.IXC_PORT, this.IXC_IP, () => {
+        const port = Number(env_1.config.ixcPort);
+        if (isNaN(port)) {
+            throw new Error("Porta IXC não definida ou inválida.");
+        }
+        if (!env_1.config.ixcIp) {
+            throw new Error("IP do IXC não definido.");
+        }
+        client.connect(port, env_1.config.ixcIp, () => {
             client.write(packet.raw);
         });
         client.on("data", (data) => {
@@ -30,5 +38,3 @@ class TK103SenderService {
     }
 }
 exports.TK103SenderService = TK103SenderService;
-TK103SenderService.IXC_IP = "131.72.68.163";
-TK103SenderService.IXC_PORT = 10000;

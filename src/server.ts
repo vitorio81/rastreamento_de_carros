@@ -1,5 +1,5 @@
 import express from 'express';
-import { getLocalIp } from './utils/netWork';
+import { getLocalIp } from './utils/network';
 import { Launcher } from "./controller/Launcher";
 
 const app = express();

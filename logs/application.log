@@ -16994,3 +16994,275 @@ Content-Type: text/plain
 Content-Length: 0" 
 2025-05-29 11:11:50 [debug] Conexão com IXC encerrada para 865011034784067 
 2025-05-29 11:12:37 [info] Loop de requisições parado 
+2025-05-29 11:26:29 [info] Verificação de token iniciada (60s) 
+2025-05-29 11:26:31 [info] Novo AccessToken gerado {"accessToken":"1c87a6734fd64d58b6a75efad30771cb"}
+2025-05-29 11:26:31 [debug] Payload criado {"payload":{"accessToken":"1c87a6734fd64d58b6a75efad30771cb"}}
+2025-05-29 11:26:31 [info] Iniciando requisição de status dos dispositivos 
+2025-05-29 11:26:31 [debug] Resposta da API recebida {"result":{"code":0,"data":[{"code":0,"imei":"865011034784521","status":"静止","lng":"-38.449998","lat":"-12.999384","speed":1,"course":0,"accStatus":true,"endTime":1750439709,"platformEndTime":1750439709,"activateTime":1747841396,"statusTimeDesc":"2分9秒","signalTime":1748528733,"gpsTime":1748528731,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034782269","status":"静止","lng":"-37.306218","lat":"-10.998317","speed":0,"course":0,"accStatus":false,"endTime":1750436421,"platformEndTime":1750436421,"activateTime":1747839539,"statusTimeDesc":"10分59秒","signalTime":1748528777,"gpsTime":1748528777,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034784067","status":"静止","lng":"-37.328643","lat":"-11.025700","speed":0,"course":0,"accStatus":false,"endTime":1750433108,"platformEndTime":1750433108,"activateTime":1747839331,"statusTimeDesc":"23分23秒","signalTime":1748528788,"gpsTime":1748528787,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"}]}}
+2025-05-29 11:26:31 [info] Dispositivos processados: 3 {"sample":[{"imei":"865011034784521","lat":-12.999384,"lng":-38.449998,"speed":1},{"imei":"865011034782269","lat":-10.998317,"lng":-37.306218,"speed":0},{"imei":"865011034784067","lat":-11.0257,"lng":-37.328643,"speed":0}]}
+2025-05-29 11:26:31 [info] Enviando pacote TK103 para 865011034784521: imei:865011034784521,001,250529112631,,F,112631.000,A,1259.9630,S,03826.9999,W,0.54,,; 
+2025-05-29 11:26:31 [error] Erro ao enviar dados do dispositivo 865011034784521 via TK103 {"error":"Port should be >= 0 and < 65536. Received type number (NaN)."}
+2025-05-29 11:26:31 [info] Enviando pacote TK103 para 865011034782269: imei:865011034782269,001,250529112631,,F,112631.000,A,1059.8990,S,03718.3731,W,0.00,,; 
+2025-05-29 11:26:31 [error] Erro ao enviar dados do dispositivo 865011034782269 via TK103 {"error":"Port should be >= 0 and < 65536. Received type number (NaN)."}
+2025-05-29 11:26:31 [info] Enviando pacote TK103 para 865011034784067: imei:865011034784067,001,250529112631,,F,112631.000,A,111.5420,S,03719.7186,W,0.00,,; 
+2025-05-29 11:26:31 [error] Erro ao enviar dados do dispositivo 865011034784067 via TK103 {"error":"Port should be >= 0 and < 65536. Received type number (NaN)."}
+2025-05-29 11:27:29 [debug] Payload criado {"payload":{"accessToken":"1c87a6734fd64d58b6a75efad30771cb"}}
+2025-05-29 11:27:29 [info] Iniciando requisição de status dos dispositivos 
+2025-05-29 11:27:29 [debug] Token ainda válido. Mantendo uso. 
+2025-05-29 11:27:30 [debug] Resposta da API recebida {"result":{"code":0,"data":[{"code":0,"imei":"865011034784521","status":"静止","lng":"-38.449996","lat":"-12.999420","speed":1,"course":0,"accStatus":true,"endTime":1750439709,"platformEndTime":1750439709,"activateTime":1747841396,"statusTimeDesc":"3分8秒","signalTime":1748528801,"gpsTime":1748528801,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034782269","status":"静止","lng":"-37.306218","lat":"-10.998317","speed":0,"course":0,"accStatus":false,"endTime":1750436421,"platformEndTime":1750436421,"activateTime":1747839539,"statusTimeDesc":"11分58秒","signalTime":1748528847,"gpsTime":1748528847,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034784067","status":"静止","lng":"-37.328643","lat":"-11.025700","speed":0,"course":0,"accStatus":false,"endTime":1750433108,"platformEndTime":1750433108,"activateTime":1747839331,"statusTimeDesc":"24分22秒","signalTime":1748528848,"gpsTime":1748528847,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"}]}}
+2025-05-29 11:27:30 [info] Dispositivos processados: 3 {"sample":[{"imei":"865011034784521","lat":-12.99942,"lng":-38.449996,"speed":1},{"imei":"865011034782269","lat":-10.998317,"lng":-37.306218,"speed":0},{"imei":"865011034784067","lat":-11.0257,"lng":-37.328643,"speed":0}]}
+2025-05-29 11:27:30 [info] Enviando pacote TK103 para 865011034784521: imei:865011034784521,001,250529112730,,F,112730.000,A,1259.9652,S,03826.9998,W,0.54,,; 
+2025-05-29 11:27:30 [error] Erro ao enviar dados do dispositivo 865011034784521 via TK103 {"error":"Port should be >= 0 and < 65536. Received type number (NaN)."}
+2025-05-29 11:27:30 [info] Enviando pacote TK103 para 865011034782269: imei:865011034782269,001,250529112730,,F,112730.000,A,1059.8990,S,03718.3731,W,0.00,,; 
+2025-05-29 11:27:30 [error] Erro ao enviar dados do dispositivo 865011034782269 via TK103 {"error":"Port should be >= 0 and < 65536. Received type number (NaN)."}
+2025-05-29 11:27:30 [info] Enviando pacote TK103 para 865011034784067: imei:865011034784067,001,250529112730,,F,112730.000,A,111.5420,S,03719.7186,W,0.00,,; 
+2025-05-29 11:27:30 [error] Erro ao enviar dados do dispositivo 865011034784067 via TK103 {"error":"Port should be >= 0 and < 65536. Received type number (NaN)."}
+2025-05-29 11:28:29 [debug] Payload criado {"payload":{"accessToken":"1c87a6734fd64d58b6a75efad30771cb"}}
+2025-05-29 11:28:29 [info] Iniciando requisição de status dos dispositivos 
+2025-05-29 11:28:29 [debug] Token ainda válido. Mantendo uso. 
+2025-05-29 11:28:31 [debug] Resposta da API recebida {"result":{"code":0,"data":[{"code":0,"imei":"865011034784521","status":"静止","lng":"-38.449970","lat":"-12.999471","speed":1,"course":0,"accStatus":true,"endTime":1750439709,"platformEndTime":1750439709,"activateTime":1747841396,"statusTimeDesc":"4分9秒","signalTime":1748528871,"gpsTime":1748528871,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034782269","status":"静止","lng":"-37.306218","lat":"-10.998317","speed":0,"course":0,"accStatus":false,"endTime":1750436421,"platformEndTime":1750436421,"activateTime":1747839539,"statusTimeDesc":"12分59秒","signalTime":1748528853,"gpsTime":1748528847,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034784067","status":"静止","lng":"-37.328643","lat":"-11.025700","speed":0,"course":0,"accStatus":false,"endTime":1750433108,"platformEndTime":1750433108,"activateTime":1747839331,"statusTimeDesc":"25分23秒","signalTime":1748528908,"gpsTime":1748528907,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"}]}}
+2025-05-29 11:28:31 [info] Dispositivos processados: 3 {"sample":[{"imei":"865011034784521","lat":-12.999471,"lng":-38.44997,"speed":1},{"imei":"865011034782269","lat":-10.998317,"lng":-37.306218,"speed":0},{"imei":"865011034784067","lat":-11.0257,"lng":-37.328643,"speed":0}]}
+2025-05-29 11:28:31 [info] Enviando pacote TK103 para 865011034784521: imei:865011034784521,001,250529112831,,F,112831.000,A,1259.9683,S,03826.9982,W,0.54,,; 
+2025-05-29 11:28:31 [error] Erro ao enviar dados do dispositivo 865011034784521 via TK103 {"error":"Port should be >= 0 and < 65536. Received type number (NaN)."}
+2025-05-29 11:28:31 [info] Enviando pacote TK103 para 865011034782269: imei:865011034782269,001,250529112831,,F,112831.000,A,1059.8990,S,03718.3731,W,0.00,,; 
+2025-05-29 11:28:31 [error] Erro ao enviar dados do dispositivo 865011034782269 via TK103 {"error":"Port should be >= 0 and < 65536. Received type number (NaN)."}
+2025-05-29 11:28:31 [info] Enviando pacote TK103 para 865011034784067: imei:865011034784067,001,250529112831,,F,112831.000,A,111.5420,S,03719.7186,W,0.00,,; 
+2025-05-29 11:28:31 [error] Erro ao enviar dados do dispositivo 865011034784067 via TK103 {"error":"Port should be >= 0 and < 65536. Received type number (NaN)."}
+2025-05-29 11:28:34 [info] Loop de requisições parado 
+2025-05-29 11:33:01 [info] Verificação de token iniciada (60s) 
+2025-05-29 11:33:03 [info] Novo AccessToken gerado {"accessToken":"20c33259af8046dda544433a4c8ddd32"}
+2025-05-29 11:33:03 [debug] Payload criado {"payload":{"accessToken":"20c33259af8046dda544433a4c8ddd32"}}
+2025-05-29 11:33:03 [info] Iniciando requisição de status dos dispositivos 
+2025-05-29 11:33:04 [debug] Resposta da API recebida {"result":{"code":0,"data":[{"code":0,"imei":"865011034784521","status":"静止","lng":"-38.450018","lat":"-12.999386","speed":1,"course":0,"accStatus":true,"endTime":1750439709,"platformEndTime":1750439709,"activateTime":1747841396,"statusTimeDesc":"8分41秒","signalTime":1748529154,"gpsTime":1748529151,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034782269","status":"静止","lng":"-37.306218","lat":"-10.998317","speed":0,"course":0,"accStatus":false,"endTime":1750436421,"platformEndTime":1750436421,"activateTime":1747839539,"statusTimeDesc":"17分31秒","signalTime":1748529153,"gpsTime":1748529127,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034784067","status":"静止","lng":"-37.328678","lat":"-11.025722","speed":1,"course":0,"accStatus":false,"endTime":1750433108,"platformEndTime":1750433108,"activateTime":1747839331,"statusTimeDesc":"29分55秒","signalTime":1748529177,"gpsTime":1748529177,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"}]}}
+2025-05-29 11:33:04 [info] Dispositivos processados: 3 {"sample":[{"imei":"865011034784521","lat":-12.999386,"lng":-38.450018,"speed":1},{"imei":"865011034782269","lat":-10.998317,"lng":-37.306218,"speed":0},{"imei":"865011034784067","lat":-11.025722,"lng":-37.328678,"speed":1}]}
+2025-05-29 11:33:04 [info] Enviando pacote TK103 para 865011034784521: imei:865011034784521,001,250529113304,,F,113304.000,A,1259.9632,S,03827.0011,W,0.54,,; 
+2025-05-29 11:33:04 [info] Enviando pacote TK103 para 865011034782269: imei:865011034782269,001,250529113304,,F,113304.000,A,1059.8990,S,03718.3731,W,0.00,,; 
+2025-05-29 11:33:04 [info] Enviando pacote TK103 para 865011034784067: imei:865011034784067,001,250529113304,,F,113304.000,A,111.5433,S,03719.7207,W,0.54,,; 
+2025-05-29 11:33:04 [info] 🛰️ Resposta do IXC para IMEI 865011034784521: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:33:03 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:33:04 [debug] Conexão com IXC encerrada para 865011034784521 
+2025-05-29 11:33:04 [info] 🛰️ Resposta do IXC para IMEI 865011034782269: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:33:03 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:33:04 [debug] Conexão com IXC encerrada para 865011034782269 
+2025-05-29 11:33:04 [info] 🛰️ Resposta do IXC para IMEI 865011034784067: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:33:03 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:33:04 [debug] Conexão com IXC encerrada para 865011034784067 
+2025-05-29 11:34:01 [debug] Payload criado {"payload":{"accessToken":"20c33259af8046dda544433a4c8ddd32"}}
+2025-05-29 11:34:01 [info] Iniciando requisição de status dos dispositivos 
+2025-05-29 11:34:01 [debug] Token ainda válido. Mantendo uso. 
+2025-05-29 11:34:03 [debug] Resposta da API recebida {"result":{"code":0,"data":[{"code":0,"imei":"865011034784521","status":"静止","lng":"-38.450032","lat":"-12.999355","speed":1,"course":0,"accStatus":true,"endTime":1750439709,"platformEndTime":1750439709,"activateTime":1747841396,"statusTimeDesc":"9分41秒","signalTime":1748529221,"gpsTime":1748529221,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034782269","status":"行驶","lng":"-37.306265","lat":"-10.998341","speed":7,"course":194,"accStatus":true,"endTime":1750436421,"platformEndTime":1750436421,"activateTime":1747839539,"statusTimeDesc":"22秒","signalTime":1748529220,"gpsTime":1748529220,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034784067","status":"静止","lng":"-37.328677","lat":"-11.025729","speed":1,"course":0,"accStatus":false,"endTime":1750433108,"platformEndTime":1750433108,"activateTime":1747839331,"statusTimeDesc":"30分55秒","signalTime":1748529237,"gpsTime":1748529237,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"}]}}
+2025-05-29 11:34:03 [info] Dispositivos processados: 3 {"sample":[{"imei":"865011034784521","lat":-12.999355,"lng":-38.450032,"speed":1},{"imei":"865011034782269","lat":-10.998341,"lng":-37.306265,"speed":7},{"imei":"865011034784067","lat":-11.025729,"lng":-37.328677,"speed":1}]}
+2025-05-29 11:34:03 [info] Enviando pacote TK103 para 865011034784521: imei:865011034784521,001,250529113403,,F,113403.000,A,1259.9613,S,03827.0019,W,0.54,,; 
+2025-05-29 11:34:03 [info] Enviando pacote TK103 para 865011034782269: imei:865011034782269,001,250529113403,,F,113403.000,A,1059.9005,S,03718.3759,W,3.78,,; 
+2025-05-29 11:34:03 [info] Enviando pacote TK103 para 865011034784067: imei:865011034784067,001,250529113403,,F,113403.000,A,111.5437,S,03719.7206,W,0.54,,; 
+2025-05-29 11:34:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784521: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:34:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:34:03 [debug] Conexão com IXC encerrada para 865011034784521 
+2025-05-29 11:34:03 [info] 🛰️ Resposta do IXC para IMEI 865011034782269: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:34:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:34:03 [debug] Conexão com IXC encerrada para 865011034782269 
+2025-05-29 11:34:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784067: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:34:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:34:03 [debug] Conexão com IXC encerrada para 865011034784067 
+2025-05-29 11:35:01 [debug] Payload criado {"payload":{"accessToken":"20c33259af8046dda544433a4c8ddd32"}}
+2025-05-29 11:35:01 [info] Iniciando requisição de status dos dispositivos 
+2025-05-29 11:35:01 [debug] Token ainda válido. Mantendo uso. 
+2025-05-29 11:35:03 [debug] Resposta da API recebida {"result":{"code":0,"data":[{"code":0,"imei":"865011034784521","status":"静止","lng":"-38.450026","lat":"-12.999352","speed":1,"course":0,"accStatus":true,"endTime":1750439709,"platformEndTime":1750439709,"activateTime":1747841396,"statusTimeDesc":"10分41秒","signalTime":1748529291,"gpsTime":1748529291,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034782269","status":"行驶","lng":"-37.306493","lat":"-11.000017","speed":14,"course":326,"accStatus":true,"endTime":1750436421,"platformEndTime":1750436421,"activateTime":1747839539,"statusTimeDesc":"1分22秒","signalTime":1748529278,"gpsTime":1748529278,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034784067","status":"静止","lng":"-37.328682","lat":"-11.025734","speed":1,"course":0,"accStatus":false,"endTime":1750433108,"platformEndTime":1750433108,"activateTime":1747839331,"statusTimeDesc":"31分55秒","signalTime":1748529297,"gpsTime":1748529297,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"}]}}
+2025-05-29 11:35:03 [info] Dispositivos processados: 3 {"sample":[{"imei":"865011034784521","lat":-12.999352,"lng":-38.450026,"speed":1},{"imei":"865011034782269","lat":-11.000017,"lng":-37.306493,"speed":14},{"imei":"865011034784067","lat":-11.025734,"lng":-37.328682,"speed":1}]}
+2025-05-29 11:35:03 [info] Enviando pacote TK103 para 865011034784521: imei:865011034784521,001,250529113503,,F,113503.000,A,1259.9611,S,03827.0016,W,0.54,,; 
+2025-05-29 11:35:03 [info] Enviando pacote TK103 para 865011034782269: imei:865011034782269,001,250529113503,,F,113503.000,A,110.0010,S,03718.3896,W,7.56,,; 
+2025-05-29 11:35:03 [info] Enviando pacote TK103 para 865011034784067: imei:865011034784067,001,250529113503,,F,113503.000,A,111.5440,S,03719.7209,W,0.54,,; 
+2025-05-29 11:35:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784521: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:35:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:35:03 [info] 🛰️ Resposta do IXC para IMEI 865011034782269: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:35:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:35:03 [debug] Conexão com IXC encerrada para 865011034782269 
+2025-05-29 11:35:03 [debug] Conexão com IXC encerrada para 865011034784521 
+2025-05-29 11:35:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784067: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:35:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:35:03 [debug] Conexão com IXC encerrada para 865011034784067 
+2025-05-29 11:36:01 [debug] Payload criado {"payload":{"accessToken":"20c33259af8046dda544433a4c8ddd32"}}
+2025-05-29 11:36:01 [info] Iniciando requisição de status dos dispositivos 
+2025-05-29 11:36:01 [debug] Token ainda válido. Mantendo uso. 
+2025-05-29 11:36:03 [debug] Resposta da API recebida {"result":{"code":0,"data":[{"code":0,"imei":"865011034784521","status":"静止","lng":"-38.450026","lat":"-12.999352","speed":1,"course":0,"accStatus":true,"endTime":1750439709,"platformEndTime":1750439709,"activateTime":1747841396,"statusTimeDesc":"11分41秒","signalTime":1748529334,"gpsTime":1748529291,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034782269","status":"行驶","lng":"-37.306762","lat":"-10.999237","speed":8,"course":357,"accStatus":true,"endTime":1750436421,"platformEndTime":1750436421,"activateTime":1747839539,"statusTimeDesc":"2分22秒","signalTime":1748529333,"gpsTime":1748529332,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034784067","status":"静止","lng":"-37.328676","lat":"-11.025735","speed":1,"course":0,"accStatus":false,"endTime":1750433108,"platformEndTime":1750433108,"activateTime":1747839331,"statusTimeDesc":"32分55秒","signalTime":1748529357,"gpsTime":1748529357,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"}]}}
+2025-05-29 11:36:03 [info] Dispositivos processados: 3 {"sample":[{"imei":"865011034784521","lat":-12.999352,"lng":-38.450026,"speed":1},{"imei":"865011034782269","lat":-10.999237,"lng":-37.306762,"speed":8},{"imei":"865011034784067","lat":-11.025735,"lng":-37.328676,"speed":1}]}
+2025-05-29 11:36:03 [info] Enviando pacote TK103 para 865011034784521: imei:865011034784521,001,250529113603,,F,113603.000,A,1259.9611,S,03827.0016,W,0.54,,; 
+2025-05-29 11:36:03 [info] Enviando pacote TK103 para 865011034782269: imei:865011034782269,001,250529113603,,F,113603.000,A,1059.9542,S,03718.4057,W,4.32,,; 
+2025-05-29 11:36:03 [info] Enviando pacote TK103 para 865011034784067: imei:865011034784067,001,250529113603,,F,113603.000,A,111.5441,S,03719.7206,W,0.54,,; 
+2025-05-29 11:36:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784521: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:36:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:36:03 [debug] Conexão com IXC encerrada para 865011034784521 
+2025-05-29 11:36:03 [info] 🛰️ Resposta do IXC para IMEI 865011034782269: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:36:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:36:03 [debug] Conexão com IXC encerrada para 865011034782269 
+2025-05-29 11:36:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784067: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:36:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:36:03 [debug] Conexão com IXC encerrada para 865011034784067 
+2025-05-29 11:37:01 [debug] Payload criado {"payload":{"accessToken":"20c33259af8046dda544433a4c8ddd32"}}
+2025-05-29 11:37:01 [info] Iniciando requisição de status dos dispositivos 
+2025-05-29 11:37:01 [debug] Token ainda válido. Mantendo uso. 
+2025-05-29 11:37:03 [debug] Resposta da API recebida {"result":{"code":0,"data":[{"code":0,"imei":"865011034784521","status":"静止","lng":"-38.450013","lat":"-12.999429","speed":1,"course":0,"accStatus":true,"endTime":1750439709,"platformEndTime":1750439709,"activateTime":1747841396,"statusTimeDesc":"12分41秒","signalTime":1748529394,"gpsTime":1748529361,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034782269","status":"静止","lng":"-37.306841","lat":"-10.998952","speed":1,"course":0,"accStatus":false,"endTime":1750436421,"platformEndTime":1750436421,"activateTime":1747839539,"statusTimeDesc":"56秒","signalTime":1748529402,"gpsTime":1748529402,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034784067","status":"静止","lng":"-37.328677","lat":"-11.025737","speed":1,"course":0,"accStatus":false,"endTime":1750433108,"platformEndTime":1750433108,"activateTime":1747839331,"statusTimeDesc":"33分55秒","signalTime":1748529417,"gpsTime":1748529417,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"}]}}
+2025-05-29 11:37:03 [info] Dispositivos processados: 3 {"sample":[{"imei":"865011034784521","lat":-12.999429,"lng":-38.450013,"speed":1},{"imei":"865011034782269","lat":-10.998952,"lng":-37.306841,"speed":1},{"imei":"865011034784067","lat":-11.025737,"lng":-37.328677,"speed":1}]}
+2025-05-29 11:37:03 [info] Enviando pacote TK103 para 865011034784521: imei:865011034784521,001,250529113703,,F,113703.000,A,1259.9657,S,03827.0008,W,0.54,,; 
+2025-05-29 11:37:03 [info] Enviando pacote TK103 para 865011034782269: imei:865011034782269,001,250529113703,,F,113703.000,A,1059.9371,S,03718.4105,W,0.54,,; 
+2025-05-29 11:37:03 [info] Enviando pacote TK103 para 865011034784067: imei:865011034784067,001,250529113703,,F,113703.000,A,111.5442,S,03719.7206,W,0.54,,; 
+2025-05-29 11:37:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784521: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:37:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:37:03 [debug] Conexão com IXC encerrada para 865011034784521 
+2025-05-29 11:37:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784067: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:37:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:37:03 [debug] Conexão com IXC encerrada para 865011034784067 
+2025-05-29 11:37:03 [info] 🛰️ Resposta do IXC para IMEI 865011034782269: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:37:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:37:03 [debug] Conexão com IXC encerrada para 865011034782269 
+2025-05-29 11:38:01 [debug] Payload criado {"payload":{"accessToken":"20c33259af8046dda544433a4c8ddd32"}}
+2025-05-29 11:38:01 [info] Iniciando requisição de status dos dispositivos 
+2025-05-29 11:38:01 [debug] Token ainda válido. Mantendo uso. 
+2025-05-29 11:38:03 [debug] Resposta da API recebida {"result":{"code":0,"data":[{"code":0,"imei":"865011034784521","status":"行驶","lng":"-38.451211","lat":"-13.001810","speed":7,"course":141,"accStatus":true,"endTime":1750439709,"platformEndTime":1750439709,"activateTime":1747841396,"statusTimeDesc":"50秒","signalTime":1748529454,"gpsTime":1748529431,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034782269","status":"静止","lng":"-37.306835","lat":"-10.998951","speed":1,"course":0,"accStatus":false,"endTime":1750436421,"platformEndTime":1750436421,"activateTime":1747839539,"statusTimeDesc":"1分55秒","signalTime":1748529472,"gpsTime":1748529472,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034784067","status":"静止","lng":"-37.328682","lat":"-11.025732","speed":1,"course":0,"accStatus":false,"endTime":1750433108,"platformEndTime":1750433108,"activateTime":1747839331,"statusTimeDesc":"34分54秒","signalTime":1748529477,"gpsTime":1748529477,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"}]}}
+2025-05-29 11:38:03 [info] Dispositivos processados: 3 {"sample":[{"imei":"865011034784521","lat":-13.00181,"lng":-38.451211,"speed":7},{"imei":"865011034782269","lat":-10.998951,"lng":-37.306835,"speed":1},{"imei":"865011034784067","lat":-11.025732,"lng":-37.328682,"speed":1}]}
+2025-05-29 11:38:03 [info] Enviando pacote TK103 para 865011034784521: imei:865011034784521,001,250529113803,,F,113803.000,A,130.1086,S,03827.0727,W,3.78,,; 
+2025-05-29 11:38:03 [info] Enviando pacote TK103 para 865011034782269: imei:865011034782269,001,250529113803,,F,113803.000,A,1059.9371,S,03718.4101,W,0.54,,; 
+2025-05-29 11:38:03 [info] Enviando pacote TK103 para 865011034784067: imei:865011034784067,001,250529113803,,F,113803.000,A,111.5439,S,03719.7209,W,0.54,,; 
+2025-05-29 11:38:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784521: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:38:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:38:03 [debug] Conexão com IXC encerrada para 865011034784521 
+2025-05-29 11:38:03 [info] 🛰️ Resposta do IXC para IMEI 865011034782269: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:38:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:38:03 [debug] Conexão com IXC encerrada para 865011034782269 
+2025-05-29 11:38:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784067: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:38:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:38:03 [debug] Conexão com IXC encerrada para 865011034784067 
+2025-05-29 11:39:01 [debug] Payload criado {"payload":{"accessToken":"20c33259af8046dda544433a4c8ddd32"}}
+2025-05-29 11:39:01 [info] Iniciando requisição de status dos dispositivos 
+2025-05-29 11:39:01 [debug] Token ainda válido. Mantendo uso. 
+2025-05-29 11:39:03 [debug] Resposta da API recebida {"result":{"code":0,"data":[{"code":0,"imei":"865011034784521","status":"行驶","lng":"-38.451168","lat":"-13.001857","speed":9,"course":107,"accStatus":true,"endTime":1750439709,"platformEndTime":1750439709,"activateTime":1747841396,"statusTimeDesc":"16秒","signalTime":1748529525,"gpsTime":1748529525,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034782269","status":"行驶","lng":"-37.306775","lat":"-10.996802","speed":20,"course":352,"accStatus":true,"endTime":1750436421,"platformEndTime":1750436421,"activateTime":1747839539,"statusTimeDesc":"48秒","signalTime":1748529538,"gpsTime":1748529538,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034784067","status":"静止","lng":"-37.328686","lat":"-11.025733","speed":0,"course":0,"accStatus":false,"endTime":1750433108,"platformEndTime":1750433108,"activateTime":1747839331,"statusTimeDesc":"35分54秒","signalTime":1748529537,"gpsTime":1748529537,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"}]}}
+2025-05-29 11:39:03 [info] Dispositivos processados: 3 {"sample":[{"imei":"865011034784521","lat":-13.001857,"lng":-38.451168,"speed":9},{"imei":"865011034782269","lat":-10.996802,"lng":-37.306775,"speed":20},{"imei":"865011034784067","lat":-11.025733,"lng":-37.328686,"speed":0}]}
+2025-05-29 11:39:03 [info] Enviando pacote TK103 para 865011034784521: imei:865011034784521,001,250529113903,,F,113903.000,A,130.1114,S,03827.0701,W,4.86,,; 
+2025-05-29 11:39:03 [info] Enviando pacote TK103 para 865011034782269: imei:865011034782269,001,250529113903,,F,113903.000,A,1059.8081,S,03718.4065,W,10.80,,; 
+2025-05-29 11:39:03 [info] Enviando pacote TK103 para 865011034784067: imei:865011034784067,001,250529113903,,F,113903.000,A,111.5440,S,03719.7212,W,0.00,,; 
+2025-05-29 11:39:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784521: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:39:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:39:03 [debug] Conexão com IXC encerrada para 865011034784521 
+2025-05-29 11:39:03 [info] 🛰️ Resposta do IXC para IMEI 865011034782269: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:39:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:39:03 [debug] Conexão com IXC encerrada para 865011034782269 
+2025-05-29 11:39:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784067: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:39:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:39:03 [debug] Conexão com IXC encerrada para 865011034784067 
+2025-05-29 11:40:01 [debug] Payload criado {"payload":{"accessToken":"20c33259af8046dda544433a4c8ddd32"}}
+2025-05-29 11:40:01 [info] Iniciando requisição de status dos dispositivos 
+2025-05-29 11:40:01 [debug] Token ainda válido. Mantendo uso. 
+2025-05-29 11:40:03 [debug] Resposta da API recebida {"result":{"code":0,"data":[{"code":0,"imei":"865011034784521","status":"行驶","lng":"-38.446189","lat":"-12.998392","speed":64,"course":64,"accStatus":true,"endTime":1750439709,"platformEndTime":1750439709,"activateTime":1747841396,"statusTimeDesc":"1分17秒","signalTime":1748529574,"gpsTime":1748529571,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034782269","status":"行驶","lng":"-37.307264","lat":"-10.996431","speed":27,"course":244,"accStatus":true,"endTime":1750436421,"platformEndTime":1750436421,"activateTime":1747839539,"statusTimeDesc":"1分49秒","signalTime":1748529574,"gpsTime":1748529554,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"},{"code":0,"imei":"865011034784067","status":"静止","lng":"-37.328686","lat":"-11.025733","speed":0,"course":0,"accStatus":false,"endTime":1750433108,"platformEndTime":1750433108,"activateTime":1747839331,"statusTimeDesc":"36分55秒","signalTime":1748529597,"gpsTime":1748529597,"positionType":"GPS","isWireless":0,"accountId":10522623,"accountName":"10949117471","userName":"DOUGLAS ANDRE DE SOUZA"}]}}
+2025-05-29 11:40:03 [info] Dispositivos processados: 3 {"sample":[{"imei":"865011034784521","lat":-12.998392,"lng":-38.446189,"speed":64},{"imei":"865011034782269","lat":-10.996431,"lng":-37.307264,"speed":27},{"imei":"865011034784067","lat":-11.025733,"lng":-37.328686,"speed":0}]}
+2025-05-29 11:40:03 [info] Enviando pacote TK103 para 865011034784521: imei:865011034784521,001,250529114003,,F,114003.000,A,1259.9035,S,03826.7713,W,34.56,,; 
+2025-05-29 11:40:03 [info] Enviando pacote TK103 para 865011034782269: imei:865011034782269,001,250529114003,,F,114003.000,A,1059.7859,S,03718.4358,W,14.58,,; 
+2025-05-29 11:40:03 [info] Enviando pacote TK103 para 865011034784067: imei:865011034784067,001,250529114003,,F,114003.000,A,111.5440,S,03719.7212,W,0.00,,; 
+2025-05-29 11:40:03 [info] 🛰️ Resposta do IXC para IMEI 865011034782269: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:40:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:40:03 [debug] Conexão com IXC encerrada para 865011034782269 
+2025-05-29 11:40:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784521: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:40:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:40:03 [debug] Conexão com IXC encerrada para 865011034784521 
+2025-05-29 11:40:03 [info] 🛰️ Resposta do IXC para IMEI 865011034784067: "HTTP/1.1 200 OK
+Date: Thu, 05 May 2025 11:40:02 GMT
+Server: MySpeedy
+Connection: close
+Content-Type: text/plain
+Content-Length: 0" 
+2025-05-29 11:40:03 [debug] Conexão com IXC encerrada para 865011034784067 
+2025-05-29 11:41:01 [debug] Payload criado {"payload":{"accessToken":"20c33259af8046dda544433a4c8ddd32"}}
+2025-05-29 11:41:01 [info] Iniciando requisição de status dos dispositivos 
+2025-05-29 11:41:01 [debug] Token ainda válido. Mantendo uso. 
+2025-05-29 11:41:10 [info] Loop de requisições parado 
